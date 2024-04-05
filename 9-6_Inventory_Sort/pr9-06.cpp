@@ -4,13 +4,10 @@
 #include <string>
 using namespace std;
   
-void displayInventory(const Inventory[], int);
+void displayInventory(const Inventory[], int);      //function prototypes go in main()
 //void bubbleSort(Inventory[], int);
 void selectionSort(Inventory[], int);
 
-/*******************************************************
- *                      main                           *
- *******************************************************/
 int main()
 {
    const int SIZE = 6;
